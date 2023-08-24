@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+{% include "home.html" %}
+
+<body>
+    <div class="container">
+        <h3>Add new contact</h1>
+
+                <table id="newContact" class="table form-tables-thead">
+                    <form id="add_new" name="add_new" action="/add_new" method="POST">
+                    <tr>
+                        <td>User name: </td>
+                        <td><input type="text" class="form-control" id="username" name="username"></td>
+                    </tr>
+                    <tr>
+                        <td>Email address: </td>
+                        <td><input type="text" class="form-control" id="emailaddress" name="emailaddress" placeholder="example@gmail.com"></td>
+                    </tr>
+                    <tr>
+                        <td>WhatsApp: </td>
+                        <td><input type="text" class="form-control" id="whatsapp" name="whatsapp" placeholder="+54 343...."></td>
+                    </tr>
+                </form>
+                </table>
+          
+            <button type="button" class="btn btn-success" id="additionSaveButton" onclick="document.getElementById('add_new').submit();">SAVE</button>
+    </div>
+</body>
+
+</html>

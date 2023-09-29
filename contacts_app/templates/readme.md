@@ -1,0 +1,1 @@
+Any template defined here like (contact/new_contact.html) will override the one on the blueprint

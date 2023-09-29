@@ -3,3 +3,4 @@
 database.db
 .python-version
 *.pyc
+.env

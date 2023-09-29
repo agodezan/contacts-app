@@ -1,4 +1,4 @@
 .vscode
 .pytest_cache
-database.database
+database.db
 .python-version
